@@ -1,3 +1,7 @@
 PyPDF2
 openpyxl
 pdfplumber
+python-dotenv
+requests
+huggingface_hub
+groq
