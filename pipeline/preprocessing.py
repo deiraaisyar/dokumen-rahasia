@@ -12,6 +12,7 @@ def clean_text(text):
     return text
 
 def preprocess_dataframe(df):
+    df = df.dropna(axis=1, how="all")
     for col in df.select_dtypes(include="object").columns:
         df[col] = df[col].apply(clean_text)
     return df
@@ -32,7 +33,6 @@ def run_preprocessing():
         output_path = output_dir / file.name
         df.to_csv(output_path, index=False)
         print(f"saved {output_path}")
-
 
 if __name__ == "__main__":
     run_preprocessing()
