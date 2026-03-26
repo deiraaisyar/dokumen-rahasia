@@ -1,0 +1,4 @@
+doc,rows_compared,text_cosine_avg,exact_match_rate,numeric_mae,numeric_within_0_1_rate,overall_score
+doc1,32,0.2794,0.1953,2.6875,0.0875,0.3713
+doc2,45,0.7129,0.5111,0.0,1.0,0.7342
+doc3,3,0.6565,0.2857,0.0,1.0,0.6497

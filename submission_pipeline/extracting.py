@@ -4,10 +4,22 @@ import re
 from pathlib import Path
 
 
+def resolve_existing_dir(candidates: list[str], label: str) -> Path:
+    """Return first existing directory candidate."""
+    for candidate in candidates:
+        path = Path(candidate)
+        if path.exists() and path.is_dir():
+            return path
+    raise FileNotFoundError(f"No available directory found for {label}: {candidates}")
+
+
+INPUT_DIR = resolve_existing_dir([ "./inputs"], "inputs")
+OUTPUT_DIR = resolve_existing_dir(["./outputs"], "outputs")
+
 def extract_excel():
 
     df_raw = pd.read_excel(
-        './data/inputs/1. IVC DOE R2 (Input).xlsx',
+        INPUT_DIR / '1. IVC DOE R2 (Input).xlsx',
         sheet_name="Risk Register",
         header=None
     )
@@ -68,9 +80,9 @@ def extract_excel():
 
     df1 = df1.reset_index(drop=True)
 
-    df2 = pd.read_excel('./data/inputs/2. City of York Council (Input).xlsx')
-    df3 = pd.read_excel('./data/inputs/3. Digital Security IT Sample Register (Input).xlsx')
-    df4 = pd.read_excel('./data/inputs/4. Moorgate Crossrail Register (Input).xlsx')
+    df2 = pd.read_excel(INPUT_DIR / '2. City of York Council (Input).xlsx')
+    df3 = pd.read_excel(INPUT_DIR / '3. Digital Security IT Sample Register (Input).xlsx')
+    df4 = pd.read_excel(INPUT_DIR / '4. Moorgate Crossrail Register (Input).xlsx')
 
     return df1, df2, df3, df4
 
@@ -114,7 +126,7 @@ def extract_pdf():
 
     records = []
 
-    with pdfplumber.open('./data/inputs/5. Corporate_Risk_Register (Input).pdf') as pdf:
+    with pdfplumber.open(INPUT_DIR / '5. Corporate_Risk_Register (Input).pdf') as pdf:
 
         for page_num, page in enumerate(pdf.pages[:20]):
 
@@ -206,7 +218,6 @@ def split_risk_effects(df):
 
     return df
 
-
 def preprocessing(df, name):
 
     df = df.dropna(thresh=df.shape[1] - 5)
@@ -216,10 +227,9 @@ def preprocessing(df, name):
 
     return df
 
-
 def save_extracted(dfs):
 
-    output_dir = Path("./data/extracted_inputs")
+    output_dir = Path("./extracted_inputs")
     output_dir.mkdir(exist_ok=True)
 
     names = ["df1", "df2", "df3", "df4", "df5"]
@@ -229,6 +239,31 @@ def save_extracted(dfs):
         path = output_dir / f"{name}.csv"
         df.to_csv(path, index=False)
 
+def extract_from_outputs_folder():
+
+    input_dir = OUTPUT_DIR
+    output_dir = Path("./extracted_outputs")
+    output_dir.mkdir(exist_ok=True)
+
+    xlsx_files = list(input_dir.glob("*.xlsx"))
+
+    if not xlsx_files:
+        print("no xlsx files found in outputs folder")
+        return
+
+    for file in xlsx_files:
+        print(f"processing {file.name}")
+
+        try:
+            df = pd.read_excel(file)
+        except Exception as e:
+            print(f"failed to read {file.name}: {e}")
+            continue
+
+        output_path = output_dir / f"{file.stem}.csv"
+        df.to_csv(output_path, index=False)
+
+        print(f"saved {output_path}")
 
 def main():
 
@@ -242,7 +277,7 @@ def main():
     df5 = preprocessing(df5, "df5")
 
     save_extracted([df1, df2, df3, df4, df5])
-
+    extract_from_outputs_folder()
 
 if __name__ == "__main__":
     main()
