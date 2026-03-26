@@ -1,6 +1,7 @@
 from pipeline.extracting import main as run_extracting
 from pipeline.preprocessing import run_preprocessing
 from pipeline.generating_outputs import run_generating_outputs
+from pipeline.evaluating import run_evaluating
 
 def main():
     print("=== Step 1: Extracting ===")
@@ -11,6 +12,9 @@ def main():
 
     print("\n=== Step 3: Generating Outputs ===")
     run_generating_outputs()
+
+    print("\n=== Step 4: Evaluating ===")
+    run_evaluating()
 
     print("\nPipeline complete.")
 

@@ -3,7 +3,6 @@ import pdfplumber
 import re
 from pathlib import Path
 
-
 def extract_excel():
 
     df_raw = pd.read_excel(
@@ -206,7 +205,6 @@ def split_risk_effects(df):
 
     return df
 
-
 def preprocessing(df, name):
 
     df = df.dropna(thresh=df.shape[1] - 5)
@@ -215,7 +213,6 @@ def preprocessing(df, name):
         df = split_risk_effects(df)
 
     return df
-
 
 def save_extracted(dfs):
 
@@ -229,6 +226,31 @@ def save_extracted(dfs):
         path = output_dir / f"{name}.csv"
         df.to_csv(path, index=False)
 
+def extract_from_outputs_folder():
+
+    input_dir = Path("./data/outputs")
+    output_dir = Path("./data/extracted_outputs")
+    output_dir.mkdir(exist_ok=True)
+
+    xlsx_files = list(input_dir.glob("*.xlsx"))
+
+    if not xlsx_files:
+        print("no xlsx files found in outputs folder")
+        return
+
+    for file in xlsx_files:
+        print(f"processing {file.name}")
+
+        try:
+            df = pd.read_excel(file)
+        except Exception as e:
+            print(f"failed to read {file.name}: {e}")
+            continue
+
+        output_path = output_dir / f"{file.stem}.csv"
+        df.to_csv(output_path, index=False)
+
+        print(f"saved {output_path}")
 
 def main():
 
@@ -242,7 +264,7 @@ def main():
     df5 = preprocessing(df5, "df5")
 
     save_extracted([df1, df2, df3, df4, df5])
-
+    extract_from_outputs_folder()
 
 if __name__ == "__main__":
     main()
