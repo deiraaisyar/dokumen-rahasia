@@ -39,7 +39,6 @@ cp .env.example .env
 
 Then fill:
 
-- `HF_TOKEN`
 - `GROQ_API_KEY`
 
 ## How to run
