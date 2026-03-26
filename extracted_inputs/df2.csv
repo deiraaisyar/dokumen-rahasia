@@ -1,76 +1,76 @@
-Date Added,Risk ID,Risk Description,Impact,Project Stage,Risk Category,Likelihood (1-10),Impact (1-10),Risk Index,Risk Owner,Mitigation
-,3,Failure to discharge planning and listed building conditions,,Pre-construction,Planning,3.3333333333333335,1.6666666666666667,2.0,Project Manager,Design team and contractor to collate initial pack of information for discharge of conditions
-,4,Planning conditions impact on budget,Increase project budget ,Pre-construction,Planning,6.666666666666667,5.0,14.0,Project Manager,Extent of conditions known and to be reviewed and managed
-,10,Electricity provider works delayed or non-conforming,"Works to provide new supply are
+Risk ID,Risk Description,Impact,Project Stage,Risk Category,Likelihood (1-10),Impact (1-10),Risk Index,Risk Owner,Mitigation
+3,Failure to discharge planning and listed building conditions,,Pre-construction,Planning,3.3333333333333335,1.6666666666666667,2,Project Manager,Design team and contractor to collate initial pack of information for discharge of conditions
+4,Planning conditions impact on budget,Increase project budget ,Pre-construction,Planning,6.666666666666667,5,14,Project Manager,Extent of conditions known and to be reviewed and managed
+10,Electricity provider works delayed or non-conforming,"Works to provide new supply are
 delayed / not in accordance with the
 programme to save having to provide a
-sub-station.",Construction,Legislation,3.3333333333333335,3.3333333333333335,4.0,Project Manager,Orders for the electrical services have been placed by CYC direct
-,11,"Building Control Sign Off delay due to
-lack of resources",Revisit design to address concerns of building control,Construction / Commissioning,Legislation,3.3333333333333335,3.3333333333333335,4.0,Project Manager,Continue liaison with the Building Control Officer
-,12,Impact of boat companies (City Cruises),Impact delivery/ site servicing strategy.,Construction,Planning,3.3333333333333335,1.6666666666666667,2.0,Project Manager,Legal agreements are in place
-,13,Party wall negotiations & construction access,"Objection from neighbours. Potential
-delay to programme",Pre-construction,Planning,5.0,6.666666666666667,10.5,Project Manager,Appoint party wall surveyor and progress discussions with neighbours
-,14,Failure to secure market interest for restaurant tenant,"Restaurant not achieving appropriate
+sub-station.",Construction,Legislation,3.3333333333333335,3.3333333333333335,4,Project Manager,Orders for the electrical services have been placed by CYC direct
+11,"Building Control Sign Off delay due to
+lack of resources",Revisit design to address concerns of building control,Construction / Commissioning,Legislation,3.3333333333333335,3.3333333333333335,4,Project Manager,Continue liaison with the Building Control Officer
+12,Impact of boat companies (City Cruises),Impact delivery/ site servicing strategy.,Construction,Planning,3.3333333333333335,1.6666666666666667,2,Project Manager,Legal agreements are in place
+13,Party wall negotiations & construction access,"Objection from neighbours. Potential
+delay to programme",Pre-construction,Planning,5,6.666666666666667,10.5,Project Manager,Appoint party wall surveyor and progress discussions with neighbours
+14,Failure to secure market interest for restaurant tenant,"Restaurant not achieving appropriate
 tenant and long term revenue
-projections. Impact on project cost.",Pre-construction / Operation,Procurement,5.0,8.333333333333334,15.0,Project Manager,"Early engagement of agent for potential lettings. Sufficient expressions of
+projections. Impact on project cost.",Pre-construction / Operation,Procurement,5,8.333333333333334,15,Project Manager,"Early engagement of agent for potential lettings. Sufficient expressions of
 interest"
-,16,Increased construction costs,"Exchange rate on materials. Impact of
+16,Increased construction costs,"Exchange rate on materials. Impact of
 international markets following political
-decisions.",Construction,Procurement,5.0,5.0,9.0,Project Manager,"Tender prices received and under review - Risk shall remain prominent
+decisions.",Construction,Procurement,5,5,9,Project Manager,"Tender prices received and under review - Risk shall remain prominent
 where budget costs / provisional sums are included"
-,18,Sub-contractor insolvency,Impacts Main Contractor,Construction,Procurement,6.666666666666667,5.0,12.0,Construction Manager,Contractor financial checks and vetting of subcontractors
-,20,"Surveys required to determine ground
+18,Sub-contractor insolvency,Impacts Main Contractor,Construction,Procurement,6.666666666666667,5,12,Construction Manager,Contractor financial checks and vetting of subcontractors
+20,"Surveys required to determine ground
 conditions/ contamination","Possible need to re-visit design / deal
-with contamination on site. ",Pre-construction,Surveys,1.6666666666666667,8.333333333333334,3.0,Lead Engineer,"GI survey undertaken, information
+with contamination on site. ",Pre-construction,Surveys,1.6666666666666667,8.333333333333334,3,Lead Engineer,"GI survey undertaken, information
 obtained. Contamination results
 received. - Desk study provided by Arup"
-,21,Identification of active movement,"Proven to be active, remediation
-impacts cost ",Pre-construction,Surveys,1.6666666666666667,8.333333333333334,5.0,Structural Engineer,Ongoing monitoring by ARUP and monitoring specification included within contract documents
-,22,Unidentified archaeology,Further evaluation required. Cost impact,Pre-construction,Surveys,3.3333333333333335,3.3333333333333335,4.0,Environment Lead,Evaluation of site undertaken
-,23,Additional surveys required,Cost impact,Pre-construction,Surveys,1.6666666666666667,1.6666666666666667,1.0,Project Manager,Undertake outstanding surveys
-,26,Unrealistic programme submitted by contractor,-,Pre-construction,Programme,1.6666666666666667,5.0,2.5,Project Manager,Market tested
-,27,"Programme delays; due to flood levels
-impacting construction","Works stop, cost and programme implications",Construction,Programme,10.0,8.333333333333334,24.0,Project Manager / Environment Lead,Review historic flood data and issue to Contractor. Contingency plan to be developed
-,29,Delay to design programme,"Client/ Contractor impact cost/
-programme",Pre-construction,Design,5.0,5.0,9.0,Design Manager,Implementation of IRS schedules design deliverables and clear responsibility for design
-,31,"Underpinning, piling and crack repairs
+21,Identification of active movement,"Proven to be active, remediation
+impacts cost ",Pre-construction,Surveys,1.6666666666666667,8.333333333333334,5,Structural Engineer,Ongoing monitoring by ARUP and monitoring specification included within contract documents
+22,Unidentified archaeology,Further evaluation required. Cost impact,Pre-construction,Surveys,3.3333333333333335,3.3333333333333335,4,Environment Lead,Evaluation of site undertaken
+23,Additional surveys required,Cost impact,Pre-construction,Surveys,1.6666666666666667,1.6666666666666667,1,Project Manager,Undertake outstanding surveys
+26,Unrealistic programme submitted by contractor,-,Pre-construction,Programme,1.6666666666666667,5,2.5,Project Manager,Market tested
+27,"Programme delays; due to flood levels
+impacting construction","Works stop, cost and programme implications",Construction,Programme,10,8.333333333333334,24,Project Manager / Environment Lead,Review historic flood data and issue to Contractor. Contingency plan to be developed
+29,Delay to design programme,"Client/ Contractor impact cost/
+programme",Pre-construction,Design,5,5,9,Design Manager,Implementation of IRS schedules design deliverables and clear responsibility for design
+31,"Underpinning, piling and crack repairs
 to be considered","May resolve existing cracks and
 movement of the tower but other cracks
 may appear elsewhere that will require
-repairing.",Pre-construction,Design,5.0,8.333333333333334,15.0,Structural Engineer,"Detailed dilapidations surveys, crack monitors"
-,32,Discovering structural unknowns,"Costs of additional surveys and
+repairing.",Pre-construction,Design,5,8.333333333333334,15,Structural Engineer,"Detailed dilapidations surveys, crack monitors"
+32,Discovering structural unknowns,"Costs of additional surveys and
 remediation works. ",Construction,Design,8.333333333333334,6.666666666666667,17.5,Structural Engineer,Undertake surveys early to determine unknowns. Allow suitable contingency for remediation. Biggest concerns being the tower underpinning and South Range
-,35,Undetected services not identified on surveys and drawings,"Programme/ re-design/ cost impact to
-address unknown ",Construction,Services,3.3333333333333335,5.0,6.0,Lead Engineer,Utilities surveys maps obtained and plotted on SGA drawings. Careful excavation / groundworks when on site
-,40,River source heat pump license approval by the Environment Agency; Refused,Delay in no approval from EA,Pre-construction,Services,1.6666666666666667,6.666666666666667,4.5,Environment Lead,Provisional consent obtained; continued dialogue required
-,41,Sourcing stone for remediation works,"Quarry that stone exists from is closed. Impacts programme, and different stone requires further approval from Historic England and the planning authority",Construction,Materials,6.666666666666667,5.0,12.0,Procurement Manager,Investigate other quarries which supply the stone. Liaise with Historic England and the planning authority to have an alternative approved.
-,42,Structural damage and the repairs required to the tower,"Finding the right solution to undertake
-the underpinning works",Construction,Construction,6.666666666666667,6.666666666666667,14.0,Structural Engineer,"Bullivants / Arup design and Vinci
+35,Undetected services not identified on surveys and drawings,"Programme/ re-design/ cost impact to
+address unknown ",Construction,Services,3.3333333333333335,5,6,Lead Engineer,Utilities surveys maps obtained and plotted on SGA drawings. Careful excavation / groundworks when on site
+40,River source heat pump license approval by the Environment Agency; Refused,Delay in no approval from EA,Pre-construction,Services,1.6666666666666667,6.666666666666667,4.5,Environment Lead,Provisional consent obtained; continued dialogue required
+41,Sourcing stone for remediation works,"Quarry that stone exists from is closed. Impacts programme, and different stone requires further approval from Historic England and the planning authority",Construction,Materials,6.666666666666667,5,12,Procurement Manager,Investigate other quarries which supply the stone. Liaise with Historic England and the planning authority to have an alternative approved.
+42,Structural damage and the repairs required to the tower,"Finding the right solution to undertake
+the underpinning works",Construction,Construction,6.666666666666667,6.666666666666667,14,Structural Engineer,"Bullivants / Arup design and Vinci
 temporary works design to be reviewed in detail to mitigate any consequential delay. Building monitoring systems and locations to be agreed."
-,48,Outstanding defects remaining unresolved,"CYC left with legacy issues and building
+48,Outstanding defects remaining unresolved,"CYC left with legacy issues and building
 defects which need resolving / impact
-on tenant occupation / satisfaction.",Commissioning,Post contract,3.3333333333333335,5.0,4.0,Project Manager,Ability to resolve within the building contract. Use of retention
-,50,Costs exceeds allocated budget (Non Construction costs),"Particular risks surrounding consultant
-fees, furniture / fit out works etc. ",Construction / Commissioning,Financial,8.333333333333334,5.0,15.0,Project Manager,Review non construction costs prior to contract award and during construction
-,51,Incorrect estimation  design errors and ambiguities,Construction cost overrun,Pre-construction,Financial,5.0,5.0,9.0,Design Manager,Risk sits with CYC except CDP items
-,56,Availability of specialist labour / equipment,Change in specification / need to  appoint specialists / commission bespoke works ,Construction,Construction,5.0,5.0,9.0,Project Manager,Dialogue with main contractor & supply chain
-,61,Poor co-ordination with design team interfaces (contractor design portions) ,-,Construction,Design,3.3333333333333335,5.0,6.0,Design Manager,CDP requirements have reduced from initial intent - Regular meetings to be held with Vinci and Design Team to discuss CDP interfaces.
-,62,Rights of Light,-,Pre-construction,Adjoining Owners,1.6666666666666667,6.666666666666667,2.5,Project Manager,Title report does not identify any issues
-,64,Poor contractor performance during construction,-,Construction,Construction,3.3333333333333335,8.333333333333334,9.0,Project Manager,Contract to be signed to protect client - performance bonds to be obtained.
-,66,Unknown South Range structures,Risk of discovering old basement causing issues with piling proposals,Construction,Design,6.666666666666667,5.0,12.0,Structural Engineer,
-,67,Insufficient design detail from specialist CDP packages,Impacts the sign off planning conditions  / listed building consents etc. In  particular pre-commencement  conditions ,Pre-construction,Design,5.0,1.6666666666666667,6.0,Design Manager,Regular design reviews and interface management
-,70,Satisfying EA requirements,Incident occurring which stops the work  and action required to resolve the issue. EA Prohibition.,Pre-construction,Design,1.6666666666666667,8.333333333333334,4.5,Environment Lead,Waste management and compliance with the EA to ensure no environmental hazards
-,72,Delay in design programme due to tenant/operator requirements,"Operator changes impacting on cost /
-programme",Pre-construction,Design,5.0,5.0,9.0,Design Manager,Recovery of cost / time included within the Agreements for Lease should late or significant changes be made
-,73,Design changes (including client changes/ variations / EOT & loss & expense claims) and unforeseen items,Construction cost overrun,Construction,Financial,10.0,8.333333333333334,30.0,Project Manager,Traditional contract — risk with CYC; secure adequate contingency
-,75,Weather delays,"Delay to programme - Wind, Temp, Rain",Construction,Construction,8.333333333333334,5.0,12.5,Project Manager,Contractor to provide impact and allowances via contract
-,76,Underpinning/ crack repairs by third parties,Cracks may appear elsewhere. Remediation costs,Construction,Design,3.3333333333333335,8.333333333333334,10.0,Structural Engineer,"Detailed dilapidations surveys, crack monitors"
-,77,Ground conditions - Borehole survey depth insufficient,Proposed piling designs impacted by this and require altering - Time & Cost impact,Pre-construction,Surveys,5.0,5.0,9.0,Lead Engineer,"Additional bore hole surveys indertaken, no foundatons / obstructions found albeit at relatively shallow depth. (near tower) Bullivants / Arup to review surveys and confirm they are happy with findings. Vinci to design piling to new structures and confirm site information held is adequate"
-,80,Instability to boundary wall following demolition,Structural works required (piers),Construction,Design,5.0,3.3333333333333335,6.0,Structural Engineer,Assessment of wall structure required - Scope of works to be determined
-,81,Clashes between the existing building foundations and proposed drainage network. No information is available for the existing buildings therefore it has not been possible to co-ordinate the height of drainage to pass above/ under the existing foundation as required.,Co-ordination of drainage with foundations during construction. Cost impact.,Construction,Surveys,5.0,3.3333333333333335,7.5,Lead Engineer,Trial holes could be undertaken to better understand the existing foundations. Drainage has been designed conservatively to allow for a level of contingency in the design if foundations impact drainage runs.
-,82,Potential drainage clash with proposed lift shaft pits,Additional external drainage network,Construction,Surveys,1.6666666666666667,5.0,3.0,Lead Engineer,Trial hole dug in the location and appears to be clear - risk to be reviewed again once demoliton of north annex is complete.
-,83,Billing omissions or inaccuracies in BoQ,Missing information within the BoQ resulting in time and cost increases,Pre-construction,Financial,6.666666666666667,8.333333333333334,18.0,Project Manager,T&T have carried out reviews of the BoQ
-,84,Additional works not covered by contract documents. Arising from opening up works / scope and extent of works greater than assumed etc.,Cost & programme,Construction,Financial,10.0,8.333333333333334,27.0,Project Manager,Detailed change management process to be followed.
-,85,"Ongoing movement in the south range, given the removal of underpinning from the scheme",Underpinning works reinstated resulting in cost and time impact,Construction / Operation,Design,3.3333333333333335,6.666666666666667,8.0,Structural Engineer,Monitoring during works
-,87,"Design change due to level of development and coordination at the point of tender, for items such as North Annex chimney, retaining walls and stairs, and movement joints to existing structures",Impact on cost and programme - changes may delay construction activity / impact on sequencing resulting in EOT claims,Pre-construction,Design,3.3333333333333335,3.3333333333333335,5.0,Design Manager,Coordination to be managed by design team as a priority - Design changes to retaining concrete wall has been instructed by CYC and should be underway by design team.
-,88,Council chamber cooling to be approved,Revisit of design proposals - time and cost,Commissioning,Design,3.3333333333333335,5.0,6.0,Design Manager,Design team to coordinate with planning / conservation
+on tenant occupation / satisfaction.",Commissioning,Post contract,3.3333333333333335,5,4,Project Manager,Ability to resolve within the building contract. Use of retention
+50,Costs exceeds allocated budget (Non Construction costs),"Particular risks surrounding consultant
+fees, furniture / fit out works etc. ",Construction / Commissioning,Financial,8.333333333333334,5,15,Project Manager,Review non construction costs prior to contract award and during construction
+51,Incorrect estimation  design errors and ambiguities,Construction cost overrun,Pre-construction,Financial,5,5,9,Design Manager,Risk sits with CYC except CDP items
+56,Availability of specialist labour / equipment,Change in specification / need to  appoint specialists / commission bespoke works ,Construction,Construction,5,5,9,Project Manager,Dialogue with main contractor & supply chain
+61,Poor co-ordination with design team interfaces (contractor design portions) ,-,Construction,Design,3.3333333333333335,5,6,Design Manager,CDP requirements have reduced from initial intent - Regular meetings to be held with Vinci and Design Team to discuss CDP interfaces.
+62,Rights of Light,-,Pre-construction,Adjoining Owners,1.6666666666666667,6.666666666666667,2.5,Project Manager,Title report does not identify any issues
+64,Poor contractor performance during construction,-,Construction,Construction,3.3333333333333335,8.333333333333334,9,Project Manager,Contract to be signed to protect client - performance bonds to be obtained.
+66,Unknown South Range structures,Risk of discovering old basement causing issues with piling proposals,Construction,Design,6.666666666666667,5,12,Structural Engineer,
+67,Insufficient design detail from specialist CDP packages,Impacts the sign off planning conditions  / listed building consents etc. In  particular pre-commencement  conditions ,Pre-construction,Design,5,1.6666666666666667,6,Design Manager,Regular design reviews and interface management
+70,Satisfying EA requirements,Incident occurring which stops the work  and action required to resolve the issue. EA Prohibition.,Pre-construction,Design,1.6666666666666667,8.333333333333334,4.5,Environment Lead,Waste management and compliance with the EA to ensure no environmental hazards
+72,Delay in design programme due to tenant/operator requirements,"Operator changes impacting on cost /
+programme",Pre-construction,Design,5,5,9,Design Manager,Recovery of cost / time included within the Agreements for Lease should late or significant changes be made
+73,Design changes (including client changes/ variations / EOT & loss & expense claims) and unforeseen items,Construction cost overrun,Construction,Financial,10,8.333333333333334,30,Project Manager,Traditional contract — risk with CYC; secure adequate contingency
+75,Weather delays,"Delay to programme - Wind, Temp, Rain",Construction,Construction,8.333333333333334,5,12.5,Project Manager,Contractor to provide impact and allowances via contract
+76,Underpinning/ crack repairs by third parties,Cracks may appear elsewhere. Remediation costs,Construction,Design,3.3333333333333335,8.333333333333334,10,Structural Engineer,"Detailed dilapidations surveys, crack monitors"
+77,Ground conditions - Borehole survey depth insufficient,Proposed piling designs impacted by this and require altering - Time & Cost impact,Pre-construction,Surveys,5,5,9,Lead Engineer,"Additional bore hole surveys indertaken, no foundatons / obstructions found albeit at relatively shallow depth. (near tower) Bullivants / Arup to review surveys and confirm they are happy with findings. Vinci to design piling to new structures and confirm site information held is adequate"
+80,Instability to boundary wall following demolition,Structural works required (piers),Construction,Design,5,3.3333333333333335,6,Structural Engineer,Assessment of wall structure required - Scope of works to be determined
+81,Clashes between the existing building foundations and proposed drainage network. No information is available for the existing buildings therefore it has not been possible to co-ordinate the height of drainage to pass above/ under the existing foundation as required.,Co-ordination of drainage with foundations during construction. Cost impact.,Construction,Surveys,5,3.3333333333333335,7.5,Lead Engineer,Trial holes could be undertaken to better understand the existing foundations. Drainage has been designed conservatively to allow for a level of contingency in the design if foundations impact drainage runs.
+82,Potential drainage clash with proposed lift shaft pits,Additional external drainage network,Construction,Surveys,1.6666666666666667,5,3,Lead Engineer,Trial hole dug in the location and appears to be clear - risk to be reviewed again once demoliton of north annex is complete.
+83,Billing omissions or inaccuracies in BoQ,Missing information within the BoQ resulting in time and cost increases,Pre-construction,Financial,6.666666666666667,8.333333333333334,18,Project Manager,T&T have carried out reviews of the BoQ
+84,Additional works not covered by contract documents. Arising from opening up works / scope and extent of works greater than assumed etc.,Cost & programme,Construction,Financial,10,8.333333333333334,27,Project Manager,Detailed change management process to be followed.
+85,"Ongoing movement in the south range, given the removal of underpinning from the scheme",Underpinning works reinstated resulting in cost and time impact,Construction / Operation,Design,3.3333333333333335,6.666666666666667,8,Structural Engineer,Monitoring during works
+87,"Design change due to level of development and coordination at the point of tender, for items such as North Annex chimney, retaining walls and stairs, and movement joints to existing structures",Impact on cost and programme - changes may delay construction activity / impact on sequencing resulting in EOT claims,Pre-construction,Design,3.3333333333333335,3.3333333333333335,5,Design Manager,Coordination to be managed by design team as a priority - Design changes to retaining concrete wall has been instructed by CYC and should be underway by design team.
+88,Council chamber cooling to be approved,Revisit of design proposals - time and cost,Commissioning,Design,3.3333333333333335,5,6,Design Manager,Design team to coordinate with planning / conservation
