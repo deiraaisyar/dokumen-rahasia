@@ -1,26 +1,26 @@
 """
 submission_pipeline/save_results.py
 -----------------------------------
-Modul Ekspor & Formatting Excel.
-Berfungsi mengubah list JSON dari AI menjadi file .xlsx final 
-dengan urutan kolom yang rapi untuk Juri.
+Excel Export & Formatting Module.
+Converts AI JSON list into final .xlsx files 
+with proper column order for Judges.
 """
 
 import pandas as pd
 
 def format_and_save_final_excel(json_data_list, output_filepath):
     """
-    Mengubah list JSON hasil inferensi LLM menjadi format Excel.
+    Convert LLM inference JSON list to Excel format.
     """
     if not json_data_list:
-        print("⚠️ Warning: Data JSON kosong, tidak ada Excel yang disimpan.")
+        print("⚠️ Warning: Empty JSON data, no Excel saved.")
         return
 
-    # Jadikan DataFrame
+    # Convert to DataFrame
     df = pd.DataFrame(json_data_list)
 
-    # 🎯 TARGET KOLOM MUTLAK UNTUK JURI
-    # Menggabungkan format Dokumen 1-4 dan Dokumen 5 (Logika Kak Deira)
+    # 🎯 STRICT TARGET COLUMNS FOR JUDGES
+    # Combines Document 1-4 and Document 5 format (Deira's Logic)
     target_columns = [
         "Risk ID",
         "Risk Description",
@@ -29,7 +29,7 @@ def format_and_save_final_excel(json_data_list, output_filepath):
         "Risk Owner",
         "Mitigating Action",
         
-        # Kolom Skala 1-10 (Dokumen 1, 2, 3, 4)
+        # 1-10 Scale Columns (Documents 1, 2, 3, 4)
         "Likelihood (1-10) (pre-mitigation)",
         "Impact (1-10) (pre-mitigation)",
         "Risk Priority (pre-mitigation)",
@@ -37,7 +37,7 @@ def format_and_save_final_excel(json_data_list, output_filepath):
         "Impact (1-10) (post-mitigation)",
         "Risk Priority (post-mitigation)",
         
-        # Kolom Skala 1-5 (KHUSUS Dokumen 5 - Logika Deira)
+        # 1-5 Scale Columns (SPECIFIC to Document 5 - Deira's Logic)
         "Likelihood No Action (1-5)",
         "Impact No Action (1-5)",
         "Risk Priority No Action (low, med, high)",
@@ -45,7 +45,7 @@ def format_and_save_final_excel(json_data_list, output_filepath):
         "Impact Current (1-5)",
         "Risk Priority Current (low, med, high)",
 
-        # Log AI (Opsional tapi bagus untuk Audit)
+        # AI Log (Optional but good for Audit)
         "Schema Alignment Log",
         "Risk ID (Reasoning)",
         "Risk Description (Reasoning)",
@@ -57,17 +57,17 @@ def format_and_save_final_excel(json_data_list, output_filepath):
         "Mitigating Action (Reasoning)"
     ]
 
-    # Filter hanya kolom yang ada di list target agar urutannya rapi
+    # Filter only available columns to ensure order
     available_cols = [col for col in target_columns if col in df.columns]
     
-    # Masukkan kolom sisa yang mungkin terlewat (jika ada) di bagian paling kanan
+    # Append leftover columns to the far right (if any)
     extra_cols = [col for col in df.columns if col not in available_cols]
     final_cols = available_cols + extra_cols
 
     df_final = df[final_cols]
 
-    # Simpan ke Excel
+    # Save to Excel
     try:
         df_final.to_excel(output_filepath, index=False)
     except Exception as e:
-        print(f"⚠️ Gagal menyimpan Excel: {e}")
+        print(f"⚠️ Failed to save Excel: {e}")
